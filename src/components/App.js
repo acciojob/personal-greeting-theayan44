@@ -8,7 +8,6 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <p>Enter your name:</p>
         <input type="text"  onKeyUp={(event)=>setMessage(`Hello ${event.target.value}!`)}/>
         <p>{message}</p>
     </div>
